@@ -31,3 +31,8 @@ When an intercept is statistically significant, it means that the intercept term
 ![total_summary](https://user-images.githubusercontent.com/102183530/179436600-f97d1c62-d178-491c-979a-5e0dde5cb2bf.png)
 ![lot_summary](https://user-images.githubusercontent.com/102183530/179436588-4e618b1b-066a-4f45-ae15-af394e4dce87.png)
 - While the overall variance, as shown in the Total Summary data above, is under 100 PSI and meets specifications, there is a problem with one of the individual lots. Delving into the summary statistics further and grouping by Manufactured Lots; the variance for Lot 3 is well over the acceptable threshold, at 170.28.
+
+## T-Tests on Suspension Coils
+![1t_test](https://user-images.githubusercontent.com/102183530/179438191-894da62a-a283-4e01-b088-6d3fe46f5182.png)
+![1t_test_LOTS](https://user-images.githubusercontent.com/102183530/179438205-a5910fbb-1734-4c7a-ad52-285fa224e263.png)
+
