@@ -36,3 +36,9 @@ When an intercept is statistically significant, it means that the intercept term
 ![1t_test](https://user-images.githubusercontent.com/102183530/179438191-894da62a-a283-4e01-b088-6d3fe46f5182.png)
 ![1t_test_LOTS](https://user-images.githubusercontent.com/102183530/179438205-a5910fbb-1734-4c7a-ad52-285fa224e263.png)
 
+H0 : There is no statistical difference between the observed sample mean and its presumed population mean.
+Ha : There is a statistical difference between the observed sample mean and its presumed population mean.
+
+The t-test analysis for the entire data set analysis; Assuming our significance level was the common 0.05 percent, our p-value is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+
+In looking further at all the Lots; the same conclusion can be drawn for Lot 1 & Lot 2; however the p-value returned for Lot 3 is 0.042 which is lower than the significance level, therefore there is sufficient evidence to reject the null hypothesis and state that the two means are statistically different.
