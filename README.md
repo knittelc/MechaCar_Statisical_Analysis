@@ -26,3 +26,12 @@ In addition, the p-value of the linear regression analysis is 5.35 x 10-11, whic
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
 When an intercept is statistically significant, it means that the intercept term explains a significant amount of variability in the dependent variable when all independent vairables are equal to zero. Depending on our dataset, a significant intercept could mean that the significant features (such as lenth and ground clearance) may need scaling or transforming to help improve the predictive power of the model. Alternatively, it may mean that there are other variables that can help explain the variability of our dependent variable that have not been included in our model, therefore this is not the most effective model to predict mpg for the MechaCar
+
+## Summary Statistics on Suspension Coils
+
+![rscript](https://user-images.githubusercontent.com/102183530/179436574-9a0980b6-0656-416f-8c39-0e854146a17a.png)
+![total_summary](https://user-images.githubusercontent.com/102183530/179436600-f97d1c62-d178-491c-979a-5e0dde5cb2bf.png)
+
+
+![lot_summary](https://user-images.githubusercontent.com/102183530/179436588-4e618b1b-066a-4f45-ae15-af394e4dce87.png)
+
