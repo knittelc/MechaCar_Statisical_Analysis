@@ -1,4 +1,13 @@
 # MechaCar_Statisical_Analysis
+Statistical analysis of automobile performance using R
+
+##Overview
+AutosRUs' new MechaCar is "suffering from production troubles" and the company is hoping that an analytical review may help provide some insight. The goal of this project is to:
+
+- Analyize and discuss any variables that could predict the MPG for new prototype design
+- Show summary stats on the PSI of suspension coils
+- Determine if manufacturing, and then a closer look at lots groups to report if they are statistically different from the mean population
+- Design a study to compare the MechaCar performance with competitive manufacturers
 
 ## Linear Regression to Predict MPG
 
@@ -42,3 +51,10 @@ Ha : There is a statistical difference between the observed sample mean and its 
 The t-test analysis for the entire data set analysis; Assuming our significance level was the common 0.05 percent, our p-value is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
 
 In looking further at all the Lots; the same conclusion can be drawn for Lot 1 & Lot 2; however the p-value returned for Lot 3 is 0.042 which is lower than the significance level, therefore there is sufficient evidence to reject the null hypothesis and state that the two means are statistically different.
+
+## Study Design: MechaCar vs Competition
+
+Always a concern for parents is vehicle saftey.  There are a number of ways beyond consumer preference and marketing perceptions to determine safety ratings.  A couple of metrics could be vehicle breaking distance in weather conditions, transmission type, vehicle size (weight, tire length, axle length), and type of car (AWD, front, rear).  
+Null Hypothesis: The slope of the linear model is 0.
+Alternate Hypothesis: The slope of the linear model is not 0.
+Using linear regression and focusing on the significant coefficients.  A correlation matrix once the rsquared and p-values are returned could be an easy way to show and report.
